@@ -1,4 +1,3 @@
-/* eslint-disable */
 const path = require('path');
 const json5 = require('json5');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -10,6 +9,7 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+    publicPath: '/',
   },
   devtool: 'inline-source-map',
   devServer: {
@@ -17,7 +17,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      template: './src/index.html',
     }),
   ],
   module: {
