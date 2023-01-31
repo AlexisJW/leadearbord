@@ -35,8 +35,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Project - Leaderboard]></a>
-**[Leaderboard]** The Leaderboard list app is a JavaScript project that uses webpack and ES6 features, including modules.
+# 📖 [Project - Leaderboard]
+**Leaderboard** list app is a JavaScript project that uses webpack and ES6 features, including modules.
   Developed from wireframe and uses API using asynchronous and pending JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
