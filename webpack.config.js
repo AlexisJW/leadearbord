@@ -1,5 +1,6 @@
 const path = require('path');
 const json5 = require('json5');
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -12,11 +13,9 @@ module.exports = {
     publicPath: '/',
   },
   devtool: 'inline-source-map',
-  devServer: {
-    static: './dist',
-  },
   plugins: [
     new HtmlWebpackPlugin({
+      title: 'Output Management',
       template: './src/index.html',
     }),
   ],
