@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="leaderboard.jpg" alt="logo" width="140"  height="auto" />
+  <img src="leaderboard.JPG" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b> Leaderboard </b></h3>
@@ -35,7 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [M1Capstone - Alexis-Conference]></a>
+# 📖 [Project - Leaderboard]></a>
 **[Leaderboard]** The Leaderboard list app is a JavaScript project that uses webpack and ES6 features, including modules.
   Developed from wireframe and uses API using asynchronous and pending JavaScript.
 
