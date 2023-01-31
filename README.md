@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="leaderboard.JPG" alt="logo" width="140"  height="auto" />
+  <img src="leaderboard.JPG" alt="logo" width="250"  height="250" />
   <br/>
 
   <h3><b> Leaderboard </b></h3>
