@@ -8,7 +8,7 @@ const createGameApiName = async (gameName) => {
       'Content-type': 'application/json; charset=UTF-8',
     },
   });
-  const json = await response.json();
+  // const json = await response.json();
 };
 
 export default createGameApiName;
