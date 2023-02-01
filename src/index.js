@@ -1,16 +1,17 @@
+// import createGame from '../modules/createGameName';
 import './style.css';
+import GETS_FROM_API from '../modules/getScoresDataFromApi.js';
+import POST_TO_API from '../modules/postToApi.js';
 
-/*https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/bwl5MuXx9HP3kxRHXohk/scores/ */
-const createGame = async (gameName) => {
-    const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', {
-        method: 'POST',
-        body: JSON.stringify({
-            name: gameName,
-        }),
-        headers: {
-            'Content-type': 'application/json; charset=UTF-8',
-        },
-    });
-    const json = await response.json();
-    console.log('name: ' + json.name + ' result: ' + json.result);
-};
+// createGameApiName('AlexisGame');
+
+window.addEventListener('DOMContentLoaded', () => {
+  const GetData = GETS_FROM_API;
+  const PostData = POST_TO_API;
+
+  const getObjFromApi = new GetData();
+  const postObjToApi = new PostData();
+
+  getObjFromApi.refreshButton();
+  postObjToApi.submitToApi();
+});
