@@ -1,1 +1,1 @@
-// JavaScript source code
+import './style.css';
