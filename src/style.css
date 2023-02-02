@@ -37,3 +37,7 @@ button {
   align-self: flex-end;
   margin-top: 9px;
 }
+
+.small-score {
+  color: #dc3545;
+}
