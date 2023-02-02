@@ -9,17 +9,18 @@
     <h1> Leaderboard </h1>
     <div id="containers">
         <div id="recent-stories-container">
-            <h2>Recent Stories &emsp; <button type="button"> Refresh </button></h2>
+            <h2>Recent Stories &emsp; <button class="refresh-button" type="button"> Refresh </button></h2>
             <div class="show-score-list">
                 &emsp;
             </div>
         </div>
-        <div id="form-container">
+        <form id="form-container">
             <h2> Add your score </h2>
-            <input placeholder="Your name" type="text"><br>
-            <input class="input-score" placeholder="Your score" type="text"><br>
-            <button type="button"> Submit </button>
-        </div>
+            <input class="input-name" placeholder="Enter your name" type="text"><br>
+            <input class="input-score" placeholder="Enter your score" type="number">
+            <small class="small-score hide"></small><br>
+            <button class="submit-button" type="button"> Submit </button>
+        </form>
     </div>
 </body>
 </html>
