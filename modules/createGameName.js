@@ -9,6 +9,7 @@ const createGameApiName = async (gameName) => {
     },
   });
   // const json = await response.json();
+  await response.json();
 };
 
 export default createGameApiName;
