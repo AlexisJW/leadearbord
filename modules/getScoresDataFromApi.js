@@ -20,10 +20,39 @@ export default class GETS_FROM_API {
       const resultObj = responseObj.result;
       scoreList.innerHTML = '';
       resultObj.forEach((obj) => {
+        let star = '🏆';
+        if (obj.score < 20) {
+          star = '🏆';
+        } else if (obj.score >= 20 && obj.score <= 30) {
+          star = '🏆🏆';
+        } else if (obj.score > 30 && obj.score <= 40) {
+          star = '🏆🏆🏆';
+        } else if (obj.score > 30 && obj.score <= 50) {
+          star = '🏆🏆🏆🏆🏆';
+        } else {
+          star = '🏆🏆🏆🏆🏆🏆';
+        }
+
         scoreList.innerHTML += `
-        <li>
-          ${obj.user}:${obj.score}
-        </li>
+        <div class="container-item">
+          <span class="material-icons-outlined">
+            account_circle
+          </span>
+          <span>
+            ${obj.user}
+          </span>
+        
+          <span>
+            SCORE
+          </span>
+          <span>
+            ${obj.score}
+          </span>
+          <span>
+            ${star}
+          </span>
+
+        </div>
       `;
       });
     }
