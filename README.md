@@ -91,7 +91,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://alexisjw.github.io/leaderboard/)
+- [Live Demo](https://alexisjw.github.io/leadearbord/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,7 +200,6 @@ If you like this project, let me know in my email: jeanwalneralexis@yahoo.com, p
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Design inspiration by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 - Microverse 
 - Coding Partners
 - Code Reviewers
@@ -221,6 +220,6 @@ If you like this project, let me know in my email: jeanwalneralexis@yahoo.com, p
 
 ## 📝 License <a name="license"></a>
 
-This project is <a href="https://github.com/AlexisJW/leaderboard/blob/day-1/LICENSE.md">MIT</a>
+This project is <a href="https://github.com/AlexisJW/leadearbord/blob/final-touches/LICENSE">MIT</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

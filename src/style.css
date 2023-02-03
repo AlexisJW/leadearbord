@@ -3,30 +3,48 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background: url("./play.jpg") rgba(0, 0, 0, 0.61);
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #containers {
-  display: flex;
   justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px;
 }
 
 .show-score-list {
   border: 1px solid black;
-}
-
-li {
-  text-decoration: none;
-  list-style: none;
-  margin-left: auto;
-}
-
-li:nth-child(even) {
-  background: lightgray;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 10vh auto;
+  background: transparent;
+  box-shadow: 0 0 15px rgb(255, 255, 255);
+  border-radius: 25px;
 }
 
 #form-container {
   display: flex;
   flex-direction: column;
+  background: transparent;
+  align-items: center;
+  min-height: auto;
+}
+
+input {
+  background: transparent;
+  height: 30px;
+  outline: none;
+  color: white;
+  font-size: 19px;
+  border: 2px solid white;
 }
 
 .input-score {
@@ -38,6 +56,66 @@ button {
   margin-top: 9px;
 }
 
+button[type="button"] {
+  width: 180px;
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 8px;
+  background: rgba(122, 123, 116, 0.72);
+  border: none;
+  color: white;
+}
+
+button[type="button"]:hover {
+  background: rgba(222, 236, 34, 0.678);
+  cursor: pointer;
+}
+
 .small-score {
   color: #dc3545;
+  box-shadow: 0 0 15px rgb(255, 255, 255);
+  font-size: 19px;
+  background: white;
+  margin-bottom: 7px;
+}
+
+.container-item {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 90%;
+  background: transparent;
+  margin: 10px auto;
+  border-radius: 15px;
+  border: 2px solid rgb(82, 81, 81);
+  align-items: center;
+  border-bottom: 1px solid rgb(82, 81, 81);
+  font-size: 17px;
+  transition: transform 0.2s;
+}
+
+.container-item:hover {
+  border: 2px solid white;
+  transform: scale(0.9);
+}
+
+span {
+  user-select: none;
+  margin: 2px;
+  color: white;
+  background: rgba(85, 81, 81, 0.637);
+  padding: 5px;
+  border-radius: 22px;
+}
+
+@media screen and (max-width: 360px) {
+  .containers {
+    width: 90%;
+  }
+
+  .show-score-list {
+    width: auto;
+    text-align: center;
+    align-items: center;
+    margin: auto auto auto auto;
+  }
 }

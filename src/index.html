@@ -3,22 +3,24 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <title> Leaderboard </title>
 </head>
-<body>
-    <h1> Leaderboard </h1>
+<body id="body">
+    <h1> LEADERBOARD </h1>
     <div id="containers">
         <div id="recent-stories-container">
-            <h2>Recent Stories &emsp; <button class="refresh-button" type="button"> Refresh </button></h2>
+            <h2>RECENT STORIES &emsp; <button class="refresh-button" type="button"> Refresh </button></h2>
             <div class="show-score-list">
-                &emsp;
+              &emsp;
             </div>
         </div>
         <form id="form-container">
-            <h2> Add your score </h2>
+            <h2> ADD YOUR SCORE </h2>
+            <small class="small-score hide"></small>
             <input class="input-name" placeholder="Enter your name" type="text"><br>
             <input class="input-score" placeholder="Enter your score" type="number">
-            <small class="small-score hide"></small><br>
+            <br>
             <button class="submit-button" type="button"> Submit </button>
         </form>
     </div>
