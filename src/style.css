@@ -12,8 +12,13 @@ body {
 }
 
 #containers {
-  display: flex;
+  /* display: flex;
   justify-content: space-evenly;
+  */
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px;
 }
 
 .show-score-list {
@@ -31,9 +36,6 @@ body {
   display: flex;
   flex-direction: column;
   background: transparent;
-
-  /* box-shadow: 0 0 15px rgb(255, 255, 255);
-    border-radius: 25px; */
   align-items: center;
   min-height: auto;
 }
@@ -80,7 +82,10 @@ button[type="button"]:hover {
 }
 
 .container-item {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+
+  /*****   */
   width: 90%;
   background: transparent;
   margin: 10px auto;
@@ -94,7 +99,7 @@ button[type="button"]:hover {
 
 .container-item:hover {
   border: 2px solid white;
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 span {
@@ -112,15 +117,9 @@ span {
   }
 
   .show-score-list {
-    width: 50%;
+    width: auto;
     text-align: center;
     align-items: center;
     margin: auto auto auto auto;
-  }
-
-  li {
-    width: auto;
-    height: 14px;
-    font-size: 12px;
   }
 }

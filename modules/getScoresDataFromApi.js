@@ -28,9 +28,9 @@ export default class GETS_FROM_API {
         } else if (obj.score > 30 && obj.score <= 40) {
           star = '🏆🏆🏆';
         } else if (obj.score > 30 && obj.score <= 50) {
-          star = '🏆🏆🏆🏆🏆';
+          star = '🏆🏆🏆🏆';
         } else {
-          star = '🏆🏆🏆🏆🏆🏆';
+          star = '🏆🏆🏆🏆🏆';
         }
 
         scoreList.innerHTML += `
