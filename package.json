@@ -44,6 +44,5 @@
     "lodash": "^4.17.21",
     "webpack": "^5.75.0",
     "webpack-dev-middleware": "^6.0.1"
-
   }
 }
