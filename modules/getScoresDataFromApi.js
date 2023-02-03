@@ -20,8 +20,7 @@ export default class GETS_FROM_API {
       const resultObj = responseObj.result;
       scoreList.innerHTML = '';
       resultObj.forEach((obj) => {
-        let star = '🏆';
-        if (obj.score < 20) {
+        let star = '🏆'; if (obj.score < 20) {
           star = '🏆';
         } else if (obj.score >= 20 && obj.score <= 30) {
           star = '🏆🏆';

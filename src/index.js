@@ -14,4 +14,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
   getObjFromApi.refreshButton();
   postObjToApi.submitToApi();
+  getObjFromApi.populate();
 });
